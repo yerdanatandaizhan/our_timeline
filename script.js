@@ -58,7 +58,7 @@ const posts = [
     title: "Картинг🏎️ ",
     description:
       "Как же я помню что проспал шаттл в молл утром, а в обед мне сказали что ты халас:( Но зато вечером встретились вдвоем к пути на шаттл, ахахах) Кажется, кто-то не очень любит картинг, но тот день я тоже хорошо запомнил)",
-    imageUrl: "images/karting.jpeg",
+    imageUrl: "images/karting.jpg",
     timestamp: "2024-09-28T22:12:27",
   },
   {
@@ -66,7 +66,7 @@ const posts = [
     title: "Ferrari World🎢",
     description:
       "Помню как все пацаны старались чтобы мы сели рядом, ахахахах (дважды почти получилось, но эх) (все равно было очеень весело)",
-    imageUrl: "images/ferrari.jpeg",
+    imageUrl: "images/ferrari.jpg",
     timestamp: "2024-10-12T15:28:27",
   },
   {
