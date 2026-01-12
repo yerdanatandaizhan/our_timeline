@@ -2,26 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Our Timeline</title>
+    <title>Our Memories</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="memories-page">
     <!-- Navigation Bar -->
     <nav class="navbar">
-      <a href="index.html" class="nav-link active">🕰️Our Timeline</a>
-      <a href="ai.html" class="nav-link">🎞️Memories</a>
+      <a href="index.html" class="nav-link">🕰️Our Timeline</a>
+      <a href="ai.html" class="nav-link active">🎞️Memories</a>
     </nav>
 
-    <!-- put this at the top of your <body> -->
-
     <img src="images/timel.png" class="time_img" alt="" />
-    <!-- POSTS CONTAINER -->
-    <div id="posts-container">
-      <!-- script.js will inject your .post cards here -->
+    <!-- Fun Fact Text -->
+    <div class="fun-fact-container">
+      <p class="fun-fact-text">
+        Fun fact: я люблю собирать мини штуки которые мне напоминают о разных
+        местах и событиях)
+      </p>
+    </div>
+    <!-- AI POSTS CONTAINER -->
+    <div id="ai-posts-container">
+      <!-- ai-script.js will inject AI-related .post cards here -->
     </div>
     <img src="images/tr_arrow.png" class="arrow" alt="" />
     <!-- MUSIC PLAYER -->
@@ -54,6 +59,11 @@
       </div>
     </div>
     <div id="hearts-container"></div>
-    <script src="script.js"></script>
+    <!-- Fullscreen Modal -->
+    <div id="fullscreen-modal" class="fullscreen-modal">
+      <button class="close-btn" id="close-modal">×</button>
+      <div class="fullscreen-content" id="fullscreen-content"></div>
+    </div>
+    <script src="ai-script.js"></script>
   </body>
 </html>
